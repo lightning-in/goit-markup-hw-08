@@ -1,0 +1,24 @@
+.customers-icon-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.customers-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+
+  transition-property: fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    fill: #2196f3;
+    border: 1px solid #2196f3;
+  }
+}

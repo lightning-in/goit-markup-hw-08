@@ -1,0 +1,33 @@
+.when {
+  margin-bottom: 42px;
+}
+
+.when-gob {
+  list-style: none;
+  display: flex;
+}
+.two-title-container {
+  position: relative;
+}
+.when-gob-item {
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
+}
+
+.two-title-name-bloc {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  top: 76%;
+  width: 100%;
+  height: 70px;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.two-title-name {
+  position: absolute;
+  color: #ffffff;
+}

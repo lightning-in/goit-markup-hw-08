@@ -1,0 +1,118 @@
+.header {
+  padding-top: 30px;
+  padding-bottom: 31px;
+  border-bottom: 1px solid #ececec;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.border-bottom {
+  border-bottom: 1px solid #eeeeee;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  list-style: none;
+  display: flex;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.menu-studio {
+  position: relative;
+  text-decoration: none;
+  color: var(--menu-studio);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus,
+  &:active {
+    color: var(--color-header);
+  }
+  &.current {
+    color: var(--color-header);
+    &::after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      left: 0;
+      height: 4px;
+      background-color: var(--color-header);
+      border-radius: 2px;
+      bottom: -39px;
+      box-sizing: border-box;
+    }
+  }
+}
+
+.contacts-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.02em;
+  list-style: none;
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-list {
+  display: flex;
+  align-items: center;
+  margin-right: 48px;
+}
+.envelope-class {
+  text-decoration: none;
+  fill: var(--hero-one);
+
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+.smartphone-class {
+  text-decoration: none;
+  fill: var(--hero-one);
+
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.mail-link,
+.tel-link {
+  color: var(--hero-one);
+  text-decoration: none;
+
+  transition-property: color, fill, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-link:hover,
+.mail-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--color-header);
+}
+.mail-link:hover .envelope-class,
+.mail-link:focus .envelope-class {
+  fill: var(--color-header);
+}
+.tel-link:hover .smartphone-class,
+.tel-link:focus .smartphone-class {
+  fill: var(--color-header);
+}
