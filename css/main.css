@@ -308,6 +308,16 @@ body {
   margin: 0 auto;
 }
 
+@media (min-device-pixel-ratio: 2) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
+  .hero__one {
+    background-image: url(../images/hero/hero2x.jpg);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__one {
+    background-image: url(../images/hero/hero3x.jpg);
+  }
+}
 .hero__title {
   font-weight: 900;
   font-size: 44px;
