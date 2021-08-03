@@ -168,11 +168,11 @@ body {
   color: var(--color-logo);
 }
 
-.logo-margin {
+.logo__margin {
   margin-right: 93px;
 }
 
-.web-logo {
+.web__logo {
   color: var(--web-logo);
 }
 
@@ -182,7 +182,7 @@ body {
   border-bottom: 1px solid #ececec;
 }
 
-.header-container {
+.header__container {
   display: flex;
   align-items: center;
 }
@@ -205,11 +205,11 @@ body {
   display: flex;
 }
 
-.menu-item:not(:last-child) {
+.menu__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.menu-studio {
+.menu__studio {
   position: relative;
   text-decoration: none;
   color: var(--menu-studio);
@@ -217,13 +217,13 @@ body {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.menu-studio:hover, .menu-studio:focus, .menu-studio:active {
+.menu__studio:hover, .menu__studio:focus, .menu__studio:active {
   color: var(--color-header);
 }
-.menu-studio.current {
+.menu__studio.current {
   color: var(--color-header);
 }
-.menu-studio.current::after {
+.menu__studio.current::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -235,7 +235,7 @@ body {
   box-sizing: border-box;
 }
 
-.contacts-list {
+.contacts__list {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.23;
@@ -247,13 +247,13 @@ body {
   justify-content: center;
 }
 
-.icon-list {
+.icon__list {
   display: flex;
   align-items: center;
   margin-right: 48px;
 }
 
-.envelope-class {
+.envelope__class {
   text-decoration: none;
   fill: var(--hero-one);
   width: 16px;
@@ -261,7 +261,7 @@ body {
   margin-right: 10px;
 }
 
-.smartphone-class {
+.smartphone__class {
   text-decoration: none;
   fill: var(--hero-one);
   width: 10px;
@@ -269,8 +269,8 @@ body {
   margin-right: 10px;
 }
 
-.mail-link,
-.tel-link {
+.mail__link,
+.tel__link {
   color: var(--hero-one);
   text-decoration: none;
   transition-property: color, fill, border;
@@ -278,25 +278,25 @@ body {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-link:hover,
-.mail-link:focus,
-.tel-link:hover,
-.tel-link:focus {
+.mail__link:hover,
+.mail__link:focus,
+.tel__link:hover,
+.tel__link:focus {
   color: var(--color-header);
 }
 
-.mail-link:hover .envelope-class,
-.mail-link:focus .envelope-class {
+.mail__link:hover .envelope__class,
+.mail__link:focus .envelope__class {
   fill: var(--color-header);
 }
 
-.tel-link:hover .smartphone-class,
-.tel-link:focus .smartphone-class {
+.tel__link:hover .smartphone__class,
+.tel__link:focus .smartphone__class {
   fill: var(--color-header);
 }
 
-.hero-one {
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero3x.jpg);
+.hero__one {
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero/hero.jpg);
   text-align: center;
   align-items: center;
   background-size: cover;
@@ -308,7 +308,7 @@ body {
   margin: 0 auto;
 }
 
-.hero-title {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -319,7 +319,7 @@ body {
   margin-bottom: 30px;
 }
 
-.button-hero {
+.button__hero {
   width: 200px;
   height: 50px;
   font-weight: 700;
@@ -337,13 +337,13 @@ body {
   padding-bottom: 0px;
 }
 
-.benefits-list {
+.benefits__list {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-.benefits-item-icon {
+.benefits__item--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -353,11 +353,11 @@ body {
   background-color: #f5f4fa;
   fill: #212121;
 }
-.benefits-item-icon:not(:last-child) {
+.benefits__item--icon:not(:last-child) {
   margin-bottom: 30px;
 }
 
-.benefits-icon-class {
+.benefits__icon--class {
   width: 70px;
   height: 70px;
 }
