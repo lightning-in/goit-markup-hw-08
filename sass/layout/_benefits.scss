@@ -2,13 +2,13 @@
   padding-bottom: 0px;
 }
 
-.benefits-list {
+.benefits__list {
   list-style: none;
   display: flex;
   justify-content: space-between;
 }
 
-.benefits-item-icon {
+.benefits__item--icon {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,7 +22,7 @@
   }
 }
 
-.benefits-icon-class {
+.benefits__icon--class {
   width: 70px;
   height: 70px;
 }
