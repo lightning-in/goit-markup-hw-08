@@ -313,7 +313,7 @@ body {
     background-image: url(../images/hero/hero2x.jpg);
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .hero__one {
     background-image: url(../images/hero/hero3x.jpg);
   }
