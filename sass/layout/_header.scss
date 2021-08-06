@@ -1,3 +1,21 @@
+// @media screen and (min-width: 480px) {
+//   .header: {
+//     width: 480px;
+//   }
+// }
+
+// @media screen and (min-width: 768px) {
+//   .header: {
+//     width: 768px;
+//   }
+// }
+
+// @media screen and (min-width: 1200px) {
+//   .header: {
+//     width: 1200px;
+//   }
+// }
+
 .header {
   padding-top: 30px;
   padding-bottom: 31px;
@@ -115,4 +133,47 @@
 .tel__link:hover .smartphone__class,
 .tel__link:focus .smartphone__class {
   fill: var(--color-header);
+}
+
+.burger-btn {
+  justify-content: right;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+
+  &__icon {
+    height: 40px;
+    width: 40px;
+    fill: #000000;
+  }
+}
+
+.mobile-meny {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: #ffffff;
+}
+
+.mobile-meny__close {
+  background-color: #ffffff;
+  border: none;
+  padding: 0;
+  line-height: 0;
+}
+.mobile-meny__closen-icon {
+  height: 40px;
+  width: 40px;
+}
+.mobile-meny__close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+}
+
+.mobile-meny__conteiner {
+  position: relative;
 }

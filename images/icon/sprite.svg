@@ -1,5 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="burger-icon" viewBox="0 0 32 32">
+<path d="M6.4 11.733v-2.133h19.2v2.133h-19.2zM6.4 17.067h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.133h-19.2v2.133z"></path>
+</symbol>
 <symbol id="icon-send" viewBox="0 0 31 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" d="M30.72 0.551l-30.72 17.079 9.818 3.594 15.142-14.031-11.518 15.358 0.009 0.003-0.012-0.003v8.363l5.506-6.349 6.974 2.553 4.8-26.568z"></path>
 </symbol>
