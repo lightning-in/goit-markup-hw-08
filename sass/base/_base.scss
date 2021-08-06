@@ -33,16 +33,21 @@ body {
   padding-top: 50px;
   padding-bottom: 94px;
 }
-// @media screen and (max-width: 768px) {
-//   .body {
-//   }
-// }
 
-// @media screen and (min-width: 768px) {
-//   .body {
-//   }
-// }
-// @media screen and (min-width: 1200px) {
-//   .body {
-//   }
-// }
+@media screen and (min-width: 1200px) {
+  .body {
+    height: 1200px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .body {
+    width: 768px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .body {
+    height: 480px;
+  }
+}
