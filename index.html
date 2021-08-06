@@ -60,23 +60,65 @@
             >
           </li>
         </ul>
-        <button type="burger-btn" class="burger-btn">
+        <button type="burger-btn" class="burger-btn" data-menu-open>
           <svg class="burger-btn__icon">
             <use href="./images/icon/sprite.svg#burger-icon"></use>
           </svg>
         </button>
       </div>
-      <div class="mobile-meny">
+      <div class="mobile-meny" data-menu>
         <div class="conteiner mobile-meny__conteiner">
           <button
             type="button"
             class="mobile-meny__close mobile-meny__close-btn"
-            data-modal-close
+            data-menu-close
           >
             <svg class="mobile-meny__closen-icon">
               <use href="./images/icon/sprite.svg#close"></use>
             </svg>
           </button>
+          <ul class="nav-many link">
+            <li class="nav-many__item">
+              <a href="./index.html" class="nav-many__link list">Студия</a>
+            </li>
+            <li class="nav-many__item">
+              <a href="./portfolio.html" class="nav-many__link list"
+                >Портфолио</a
+              >
+            </li>
+            <li class="nav-many__item">
+              <a href="#Контакты" class="nav-many__link list">Контакты</a>
+            </li>
+          </ul>
+          <ul class="many-contacts__list">
+            <li class="many-contacts__link">
+              <a class="many-contacts tel__link" href="tel:+380961111111">
+                +38 096 111 11 11</a
+              >
+            </li>
+            <li class="many-contacts__link">
+              <a
+                class="many-contacts mail__link"
+                href="mailto:info@devstudio.com"
+              >
+                info@devstudio.com</a
+              >
+            </li>
+          </ul>
+          <ul class="many-lists link">
+            <li class="many-lists__item">
+              <a href="#" class="many-lists__item-link list">Instagram</a>
+            </li>
+            <li class="many-lists__item">
+              <a href="#" class="many-lists__item-link list">Twitter</a>
+            </li>
+            <li class="many-lists__item">
+              <a href="#" class="many-lists__item-link list">Facebook</a>
+            </li>
+            <li class="many-lists__item">
+              <a href="#" class="many-lists__item-link list">LinkedIn</a>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
@@ -600,5 +642,6 @@
       </div>
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

@@ -140,11 +140,21 @@
   background-color: transparent;
   border: none;
   padding: 0;
+  cursor: pointer;
 
   &__icon {
     height: 40px;
     width: 40px;
     fill: #000000;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus,
+    &:active {
+      fill: var(--color-header);
+    }
   }
 }
 
@@ -156,6 +166,16 @@
   width: 100vw;
   height: 100vw;
   background-color: #ffffff;
+
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+
+  &.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
 }
 
 .mobile-meny__close {
@@ -167,6 +187,17 @@
 .mobile-meny__closen-icon {
   height: 40px;
   width: 40px;
+  cursor: pointer;
+  color: #000000;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus,
+  &:active {
+    fill: var(--color-header);
+  }
 }
 .mobile-meny__close-btn {
   position: absolute;
@@ -176,4 +207,92 @@
 
 .mobile-meny__conteiner {
   position: relative;
+  min-height: 200px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav-many {
+  display: flex;
+  flex-direction: column;
+
+  &__item {
+    margin-bottom: 36px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1.76;
+    letter-spacing: 0.02em;
+  }
+  &__link {
+    text-decoration: none;
+    color: #212121;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: var(--color-header);
+    }
+  }
+}
+
+.many-contacts__list {
+  display: flex;
+  flex-direction: column;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.23;
+  letter-spacing: 0.02em;
+  list-style: none;
+
+  padding-bottom: 32px;
+}
+
+.many-contacts__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+
+  padding-bottom: 32px;
+}
+
+.many-lists {
+  display: flex;
+  align-items: center;
+
+  &__item {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.22;
+    letter-spacing: 0.02em;
+    padding-right: 10px;
+  }
+  &__item-link {
+    text-decoration: none;
+    color: #2196f3;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 22px;
+      height: 0px;
+
+      border: 1px solid rgba(33, 33, 33, 0.2);
+      transform: rotate(90deg);
+      box-sizing: border-box;
+    }
+  }
+  .many-lists__item :not(first-child) {
+    padding-left: 10px;
+  }
 }
