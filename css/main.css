@@ -184,6 +184,11 @@ body {
   color: var(--web-logo);
 }
 
+@media screen and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
 .header {
   padding-top: 30px;
   padding-bottom: 31px;
@@ -535,6 +540,11 @@ body {
   margin-bottom: 10px;
 }
 
+@media screen and (max-width: 767px) {
+  .when-gob-section {
+    display: none;
+  }
+}
 .when {
   margin-bottom: 42px;
 }
