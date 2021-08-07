@@ -1,7 +1,29 @@
-.customers-icon-list {
-  display: flex;
-  list-style: none;
-  justify-content: space-between;
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 1200px) {
+  .customers-icon-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-top: -30px;
+  }
+
+  .customers-icons {
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px dashed #eeeeee;
+    border-style: solid;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customers-icon-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
 }
 .customers-icons {
   display: flex;
