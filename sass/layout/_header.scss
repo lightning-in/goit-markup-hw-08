@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 480px) {
   .menu__item {
     opacity: 0;
     visibility: hidden;
@@ -10,17 +10,21 @@
     pointer-events: none;
   }
 }
-// @media screen and (min-width: 768px) {
-//   .header: {
-//     width: 768px;
-//   }
-// }
+@media screen and (max-width: 767px) {
+  .contacts__list {
+    text-decoration: column;
+  }
+}
 
-// @media screen and (min-width: 1200px) {
-//   .header: {
-//     width: 1200px;
-//   }
-// }
+@media screen and (min-width: 1200px) {
+  .contacts__list {
+    justify-content: center;
+    align-items: center;
+  }
+  .burger-btn {
+    display: none;
+  }
+}
 
 .header {
   padding-top: 30px;
@@ -90,8 +94,6 @@
   list-style: none;
   display: flex;
   margin-left: auto;
-  align-items: center;
-  justify-content: center;
 }
 
 .icon__list {

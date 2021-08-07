@@ -4,6 +4,9 @@
     flex-direction: column;
     margin: 0 auto;
   }
+  .benefits__item--icon {
+    width: 450px;
+  }
 }
 // 768+
 @media screen and (max-width: 768px) {
@@ -16,11 +19,17 @@
     margin-left: 30px;
     margin-top: 30px;
   }
+  .benefits__item--icon {
+    width: 354px;
+  }
 }
 //  1200+
 @media screen and (min-width: 1200px) {
   .benefits__list {
     justify-content: space-between;
+  }
+  .benefits__item--icon {
+    width: 270px;
   }
 }
 
@@ -37,7 +46,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 270px;
   height: 120px;
   cursor: unset;
   background-color: #f5f4fa;
