@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 767px) {
   .menu__item {
     opacity: 0;
     visibility: hidden;
@@ -9,20 +9,46 @@
     visibility: hidden;
     pointer-events: none;
   }
+  .burger-btn {
+    justify-content: right;
+  }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1200px) {
+  .mail__link {
+    padding-bottom: 10px;
+  }
+  .logo__margin {
+    margin-right: 88px;
+  }
+}
+@media screen and (min-width: 1200px) {
   .contacts__list {
-    text-decoration: column;
+  }
+  .contacts__list {
+    display: flex;
+  }
+  .icon__list {
+    display: flex;
+    align-items: center;
+    margin-right: 48px;
+  }
+  .logo__margin {
+    margin-right: 93px;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
   .contacts__list {
     justify-content: center;
     align-items: center;
   }
   .burger-btn {
     display: none;
+  }
+  .mail__link,
+  .tel__link {
+    display: flex;
+    align-items: center;
   }
 }
 
@@ -92,15 +118,9 @@
   line-height: 1.23;
   letter-spacing: 0.02em;
   list-style: none;
-  display: flex;
   margin-left: auto;
 }
 
-.icon__list {
-  display: flex;
-  align-items: center;
-  margin-right: 48px;
-}
 .envelope__class {
   text-decoration: none;
   fill: var(--hero-one);
