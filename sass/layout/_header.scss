@@ -13,7 +13,7 @@
     justify-content: right;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .mail__link {
     padding-bottom: 10px;
   }
@@ -167,8 +167,8 @@
   justify-content: right;
   background-color: transparent;
   border: none;
-  padding: 0;
   cursor: pointer;
+  margin-right: 15px;
 
   &__icon {
     height: 40px;

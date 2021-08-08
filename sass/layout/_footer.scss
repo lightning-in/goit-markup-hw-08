@@ -12,6 +12,8 @@
   }
   .modal-form-footer-label {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .margin-footer {
     margin-bottom: 20px;
