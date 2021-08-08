@@ -212,7 +212,7 @@ body {
     justify-content: right;
   }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
   .mail__link {
     padding-bottom: 10px;
   }
@@ -366,8 +366,8 @@ body {
   justify-content: right;
   background-color: transparent;
   border: none;
-  padding: 0;
   cursor: pointer;
+  margin-right: 15px;
 }
 .burger-btn__icon {
   height: 40px;
@@ -511,8 +511,6 @@ body {
   text-align: center;
   align-items: center;
   background-size: cover;
-  padding-top: 206px;
-  padding-bottom: 200px;
   width: 1600px;
   height: 600px;
   box-sizing: border-box;
@@ -523,28 +521,59 @@ body {
 @media (min-device-pixel-ratio: 1) and (min-width: 480px), (-webkit-min-device-pixel-ratio: 1.1979166666666667) and (min-width: 480px), (min-resolution: 115dpi) and (min-width: 480px), (-webkit-min-device-pixel-ratio: 1) and (min-width: 480px), (min-resolution: 1dppx) and (min-width: 480px) {
   .hero__one {
     background-image: url(../images/hero/hero.jpg);
-    width: 480px;
-    height: 400px;
   }
 }
 @media (min-device-pixel-ratio: 2) and (min-width: 768px), (-webkit-min-device-pixel-ratio: 2) and (min-width: 768px), (min-resolution: 192dpi) and (min-width: 768px), (min-resolution: 2dppx) and (min-width: 768px) {
   .hero__one {
     background-image: url(../images/hero/hero2x.jpg);
-    width: 768px;
-    height: 400px;
   }
 }
 @media (min-device-pixel-ratio: 3) and (min-width: 1200px), (-webkit-min-device-pixel-ratio: 3) and (min-width: 1200px), (min-resolution: 288dpi) and (min-width: 1200px), (min-resolution: 3dppx) and (min-width: 1200px) {
   .hero__one {
     background-image: url(../images/hero/hero3x.jpg);
+  }
+}
+@media screen and (min-width: 480px) {
+  .hero__one {
+    width: 480px;
+    height: 400px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+
+  .hero__title {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero__one {
+    width: 768px;
+    height: 400px;
+    padding-top: 118px;
+    padding-bottom: 118px;
+  }
+
+  .hero__title {
+    font-size: 26px;
+    line-height: 1.62;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__one {
     width: 1600px;
     height: 600px;
+    padding-top: 206px;
+    padding-bottom: 200px;
+  }
+
+  .hero__title {
+    font-size: 44px;
+    line-height: 1.36;
   }
 }
 .hero__title {
   font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -803,6 +832,8 @@ body {
 
   .modal-form-footer-label {
     display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   .margin-footer {
