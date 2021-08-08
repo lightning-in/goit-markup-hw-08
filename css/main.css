@@ -543,7 +543,7 @@ body {
     width: 100vw;
   }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .benefits__list {
     flex-wrap: wrap;
     margin-left: -30px;
@@ -566,19 +566,6 @@ body {
 
   .benefits__item--icon {
     width: 270px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .benefits__list {
-    align-items: center;
-    flex-wrap: wrap;
-    margin-left: -30px;
-    margin-top: -30px;
-  }
-
-  .benefits-item {
-    margin-left: 30px;
-    margin-top: 30px;
   }
 }
 .benefits {
@@ -964,6 +951,7 @@ body {
   border-radius: 4px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   background-color: #2f303a;
+  padding-left: 16px;
 }
 
 .modal-footer-button {
