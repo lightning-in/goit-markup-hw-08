@@ -12,7 +12,6 @@
   }
   .modal-form-footer-label {
     display: flex;
-    flex-direction: column;
     align-items: center;
   }
   .margin-footer {
@@ -20,7 +19,6 @@
     margin-right: 156px;
   }
 }
-
 .footer {
   background-color: var(--footer-background-color);
 }
@@ -142,7 +140,7 @@
   color: var(--button-hero);
   cursor: pointer;
   background-color: var(--button-hero-background-color);
-  border: none;
+  border: 1px solid #2196f3;
   border-radius: 4px;
   padding: 9px 29px;
 }
