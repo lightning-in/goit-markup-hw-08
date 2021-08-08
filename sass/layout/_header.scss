@@ -1,13 +1,12 @@
 @media screen and (max-width: 767px) {
-  .menu__item {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+  .nav {
+    display: none;
+  }
+  .menu {
+    display: none;
   }
   .contacts__list {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
+    display: none;
   }
   .burger-btn {
     justify-content: right;
@@ -60,6 +59,7 @@
 .header__container {
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .border-bottom {
   border-bottom: 1px solid #eeeeee;
@@ -161,85 +161,6 @@
 .tel__link:hover .smartphone__class,
 .tel__link:focus .smartphone__class {
   fill: var(--color-header);
-}
-
-.burger-btn {
-  justify-content: right;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  margin-right: 15px;
-
-  &__icon {
-    height: 40px;
-    width: 40px;
-    fill: #000000;
-
-    transition-property: color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    &:hover,
-    &:focus,
-    &:active {
-      fill: var(--color-header);
-    }
-  }
-}
-
-.mobile-meny {
-  position: fixed;
-  z-index: 100;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vw;
-  background-color: #ffffff;
-
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-
-  &.is-open {
-    opacity: 1;
-    visibility: visible;
-    pointer-events: auto;
-  }
-}
-
-.mobile-meny__close {
-  background-color: #ffffff;
-  border: none;
-  padding: 0;
-  line-height: 0;
-}
-.mobile-meny__closen-icon {
-  height: 40px;
-  width: 40px;
-  cursor: pointer;
-  color: #000000;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover,
-  &:focus,
-  &:active {
-    fill: var(--color-header);
-  }
-}
-.mobile-meny__close-btn {
-  position: absolute;
-  top: 10px;
-  right: 15px;
-}
-
-.mobile-meny__conteiner {
-  position: relative;
-  min-height: 200px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .nav-many {
