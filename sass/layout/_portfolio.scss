@@ -1,3 +1,21 @@
+@media screen and (min-width: 480px) {
+  .img-portfolio-x {
+    width: 450px;
+    height: 294px;
+  }
+}
+@media screen and (min-width: 767px) {
+  .img-portfolio-x {
+    width: 354px;
+    height: 294px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .img-portfolio-x {
+    width: 370px;
+    height: 294px;
+  }
+}
 .portfolio {
   list-style: none;
   display: flex;

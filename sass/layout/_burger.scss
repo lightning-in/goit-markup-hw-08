@@ -21,13 +21,13 @@
   }
 }
 
-.mobile-meny {
+.mobile-menu {
   position: fixed;
   z-index: 100;
   top: 0;
   left: 0;
   width: 100vw;
-  height: 100vw;
+  height: 796px;
   background-color: #ffffff;
 
   opacity: 0;
@@ -41,13 +41,13 @@
   }
 }
 
-.mobile-meny__close {
+.mobile-menu__close {
   background-color: #ffffff;
   border: none;
   padding: 0;
   line-height: 0;
 }
-.mobile-meny__closen-icon {
+.mobile-menu__closen-icon {
   height: 40px;
   width: 40px;
   cursor: pointer;
@@ -62,13 +62,13 @@
     fill: var(--color-header);
   }
 }
-.mobile-meny__close-btn {
+.mobile-menu__close-btn {
   position: absolute;
   top: 10px;
   right: 15px;
 }
 
-.mobile-meny__conteiner {
+.mobile-menu__conteiner {
   position: relative;
   min-height: 200px;
   padding-top: 48px;
