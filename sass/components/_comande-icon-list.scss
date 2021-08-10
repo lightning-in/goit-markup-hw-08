@@ -1,3 +1,19 @@
+@media screen and (max-width: 767px) {
+  .comande-icon-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (min-width: 767px) {
+  .comande-icon-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 1200px) {
+}
 .comande-icon-list {
   display: flex;
   list-style: none;

@@ -4,19 +4,30 @@
   .customers-icon-list {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: -30px;
     margin-top: -30px;
   }
+  .customers-icons {
+    margin-left: 30px;
+    margin-top: 30px;
+    border: 1px dashed #eeeeee;
+    border-style: solid;
+  }
+  .customers-icons {
+    width: 208px;
+  }
 }
-@media screen and (max-width: 1200px) {
+@media screen and (min-width: 768px) {
   .customers-icon-list {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-left: -30px;
     margin-top: -30px;
   }
@@ -27,6 +38,9 @@
     border: 1px dashed #eeeeee;
     border-style: solid;
   }
+  .customers-icons {
+    width: 210px;
+  }
 }
 @media screen and (min-width: 1200px) {
   .customers-icon-list {
@@ -34,12 +48,14 @@
     list-style: none;
     justify-content: space-between;
   }
+  .customers-icons {
+    width: 170px;
+  }
 }
 .customers-icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 170px;
   height: 92px;
   fill: #afb1b8;
   border: 1px solid #afb1b8;

@@ -1,9 +1,16 @@
+@media screen and (max-width: 767px) {
+}
+@media screen and (min-width: 767px) {
+  .burger-btn {
+    margin-right: 15px;
+  }
+}
+
 .burger-btn {
   justify-content: right;
   background-color: transparent;
   border: none;
   cursor: pointer;
-  margin-right: 15px;
 
   &__icon {
     height: 40px;
@@ -68,6 +75,6 @@
 }
 .mobile-menu__close-btn {
   position: absolute;
-  top: 10px;
-  right: 15px;
+  top: 20px;
+  right: 80px;
 }

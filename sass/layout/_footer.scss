@@ -6,6 +6,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
+
     justify-content: space-around;
   }
   .mobile-footer {
@@ -30,6 +31,7 @@
 @media screen and (max-width: 767px) {
   .footer-container {
     flex-direction: column;
+    align-items: center;
   }
   .mobile-footer {
     margin-right: 0;
