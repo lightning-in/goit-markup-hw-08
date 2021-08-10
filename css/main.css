@@ -385,6 +385,16 @@ body {
   padding-bottom: 36px;
 }
 
+.menu-contacts {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  margin-bottom: 32px;
+  color: var(--color-header);
+}
+
 .menu-lists-contacts {
   margin-top: auto;
 }
