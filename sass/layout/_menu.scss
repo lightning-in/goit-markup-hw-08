@@ -6,21 +6,23 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    justify-content: start;
+    justify-content: column;
   }
   .menu-portfolio-item {
     padding-bottom: 15px;
   }
 }
 @media screen and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
   .menu-portfolio {
     list-style: none;
     display: flex;
     justify-content: center;
   }
 }
-
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 767px) {
   .menu-portfolio {
     list-style: none;
     display: flex;
