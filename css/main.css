@@ -386,15 +386,12 @@ body {
 }
 
 .menu-contacts__list {
-  display: flex;
-  flex-direction: column;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.23;
   letter-spacing: 0.02em;
   list-style: none;
-  padding-top: 300px;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .menu-contacts__link {
@@ -403,7 +400,7 @@ body {
   font-size: 24px;
   line-height: 1.17;
   letter-spacing: 0.02em;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .menu-lists {
@@ -424,13 +421,13 @@ body {
   color: #2196f3;
 }
 
-.menu-lists__item :not(lats-child)::after {
+.menu-lists__item:not(firs-child):after {
   content: "";
   position: absolute;
   width: 22px;
   height: 0px;
   top: 7px;
-  left: 88px;
+  left: -29px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   transform: rotate(90deg);
   box-sizing: border-box;
@@ -1443,7 +1440,7 @@ body {
   top: 0;
   left: 0;
   width: 100vw;
-  height: 796px;
+  height: 100vh;
   background-color: #ffffff;
   opacity: 0;
   visibility: hidden;
@@ -1482,6 +1479,9 @@ body {
 }
 
 .mobile-menu__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   position: relative;
   min-height: 200px;
   padding-top: 48px;
