@@ -157,6 +157,19 @@
   fill: var(--color-header);
 }
 
+.mobile-menu__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  position: relative;
+  min-height: 200px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .nav-menu {
   display: flex;
   flex-direction: column;
@@ -199,7 +212,6 @@
   color: var(--color-header);
 }
 .menu-lists-contacts {
-  margin-top: auto;
 }
 .menu-contacts__list {
   font-weight: 500;

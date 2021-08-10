@@ -360,6 +360,18 @@ body {
   fill: var(--color-header);
 }
 
+.mobile-menu__conteiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+  min-height: 200px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
 .nav-menu {
   display: flex;
   flex-direction: column;
@@ -393,10 +405,6 @@ body {
   letter-spacing: 0.02em;
   margin-bottom: 32px;
   color: var(--color-header);
-}
-
-.menu-lists-contacts {
-  margin-top: auto;
 }
 
 .menu-contacts__list {
@@ -1472,6 +1480,9 @@ body {
   width: 100vw;
   height: 100vh;
   background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
@@ -1506,16 +1517,4 @@ body {
   position: absolute;
   top: 10px;
   right: 15px;
-}
-
-.mobile-menu__conteiner {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  position: relative;
-  min-height: 200px;
-  padding-top: 48px;
-  padding-bottom: 48px;
-  padding-left: 40px;
-  padding-right: 40px;
 }/*# sourceMappingURL=main.css.map */
