@@ -385,6 +385,10 @@ body {
   padding-bottom: 36px;
 }
 
+.menu-lists-contacts {
+  margin-top: auto;
+}
+
 .menu-contacts__list {
   font-weight: 500;
   font-size: 14px;
@@ -421,7 +425,7 @@ body {
   color: #2196f3;
 }
 
-.menu-lists__item:not(firs-child):after {
+.menu-lists__item:not(:first-child)::after {
   content: "";
   position: absolute;
   width: 22px;

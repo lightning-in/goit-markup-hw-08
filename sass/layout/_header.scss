@@ -188,6 +188,9 @@
   }
 }
 
+.menu-lists-contacts {
+  margin-top: auto;
+}
 .menu-contacts__list {
   font-weight: 500;
   font-size: 14px;
@@ -228,7 +231,7 @@
   }
 }
 
-.menu-lists__item:not(firs-child):after {
+.menu-lists__item:not(:first-child)::after {
   content: "";
   position: absolute;
   width: 22px;
