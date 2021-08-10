@@ -5,15 +5,13 @@
   .footer-container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: baseline;
+    justify-content: space-around;
   }
   .mobile-footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-
-    margin-right: 173px;
   }
   .block-footer {
     display: flex;
