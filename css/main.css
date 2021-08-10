@@ -100,13 +100,13 @@ body {
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 448px;
+    width: 450px;
     margin: 0 auto;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    width: 720px;
+    width: 768px;
     margin: 0 auto;
   }
 }
@@ -935,7 +935,7 @@ body {
   }
 
   .modal-form-footer-input {
-    width: 358px;
+    width: 334px;
   }
 
   .modal-form-footer {
@@ -1135,6 +1135,18 @@ body {
   color: var(--button-portfolio-hf);
 }
 
+@media screen and (min-width: 767px) {
+  .img-portfolio-x {
+    width: 354px;
+    height: 294px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-portfolio-x {
+    width: 450px;
+    height: 294px;
+  }
+}
 @media screen and (min-width: 480px) {
   .img-portfolio-x {
     width: 450px;
@@ -1142,6 +1154,10 @@ body {
   }
 }
 @media screen and (min-width: 767px) {
+  .portfolio {
+    align-items: flex-start;
+  }
+
   .img-portfolio-x {
     width: 354px;
     height: 294px;
