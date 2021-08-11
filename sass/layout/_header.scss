@@ -175,8 +175,8 @@
 .mobile-menu__conteiner {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-
+  justify-content: space-between;
+  height: 100%;
   position: relative;
   min-height: 200px;
   padding-top: 48px;
